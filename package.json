@@ -1,0 +1,27 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "API del proyecto final de la asignatura de compiladores",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "keywords": [
+        "nodejs",
+        "express",
+        "eam",
+        "mongodb"
+    ],
+    "author": "Alejandro Matallana",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^3.0.2",
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "mongoose": "^5.3.4"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.4"
+    }
+}
