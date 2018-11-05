@@ -7,7 +7,7 @@ let PlaceSchema = new Schema({
         required: true
     },
     description: String,
-    id: {
+    userId: {
         type: String,
         required: true
     }

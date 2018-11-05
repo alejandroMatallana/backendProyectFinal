@@ -11,12 +11,12 @@ let PlaceController = {
                 res.json(err);
             });
     },
+    //Crea un lugar
     store(req, res) {
         Place.create({
                 name: req.body.name,
                 description: req.body.description,
-                id: req.body.id
-
+                userId: req.body.userId
             })
             .then((doc) => {
                 res.json(doc);
