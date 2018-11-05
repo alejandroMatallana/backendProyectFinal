@@ -6,7 +6,11 @@ let PlaceSchema = new Schema({
         type: String,
         required: true
     },
-    description: String
+    description: String,
+    id: {
+        type: String,
+        required: true
+    }
 }, {
     versionKey: false
 });

@@ -14,7 +14,9 @@ let PlaceController = {
     store(req, res) {
         Place.create({
                 name: req.body.name,
-                description: req.body.description
+                description: req.body.description,
+                id: req.body.id
+
             })
             .then((doc) => {
                 res.json(doc);
